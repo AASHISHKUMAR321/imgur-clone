@@ -1,0 +1,280 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 100%;
+    font-family: Proxima Nova Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #fff;
+}
+
+.nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    position: sticky;
+    justify-content: space-around;
+    background-image: url("https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png");
+}
+
+.nav>div {
+    margin: auto;
+}
+
+.nav>div>input {
+    padding: 8px 100px;
+    background: hsla(0, 0%, 100%, 0.25);
+    border-radius: 3px;
+    outline: 0 none;
+    opacity: 0.8;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    color: #fff;
+    text-shadow: inherit;
+    -webkit-text-fill-color: inherit;
+}
+
+.nav>div>span {
+    padding: 10px 16px;
+    border-radius: 3px;
+    outline: 0 none;
+    opacity: 0.8;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    color: #fff;
+    text-shadow: inherit;
+    -webkit-text-fill-color: inherit;
+    margin-left: -50px;
+}
+
+.nav>div>button {
+    padding: 10px 20px;
+    text-align: center;
+    height: 35px;
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    background-color: #1bb76e;
+    color: rgb(236, 226, 226);
+    white-space: nowrap;
+    border: none;
+}
+
+#post {
+    display: flex;
+}
+
+#signin {
+    background-color: transparent;
+}
+
+#ad {
+    background: #6432f9;
+}
+
+.main {
+    margin-top: -20px;
+    width: 100%;
+    height: 350px;
+    color: white;
+    text-align: center;
+    background-image: url("https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png");
+}
+
+.card {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card>div:nth-child(1) {
+    width: 220px;
+    height: 130px;
+    background-image: url("./images/imgur1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.card>div:nth-child(1)>div {
+    background-color: rgb(99, 56, 117);
+    color: white;
+    width: 100%;
+    height: 60px;
+    font-family: Proxima Nova Bold, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+
+.card>div:nth-child(1)>div>span {
+    text-align: center;
+}
+
+.card>div {
+    height: 130px;
+    width: 110px;
+}
+
+.card>div:nth-child(2) {
+    background-image: url("./images/imgur2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.card>div:nth-child(2)>div {
+    background-color: rgb(99, 56, 117);
+    color: white;
+    width: 100%;
+    height: 60px;
+    font-family: Proxima Nova Bold, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+
+.card>div:nth-child(3) {
+    background-image: url("./images/imgur3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.card>div:nth-child(3)>div {
+    background-color: rgb(99, 56, 117);
+    color: white;
+    width: 100%;
+    height: 60px;
+    font-family: Proxima Nova Bold, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+
+.card>div:nth-child(4) {
+    background-image: url("./images/imgur5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.card>div:nth-child(4)>div {
+    background-color: rgb(99, 56, 117);
+    color: white;
+    width: 100%;
+    height: 60px;
+    font-family: Proxima Nova Bold, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+
+.card>div:nth-child(5) {
+    background-image: url("./images/imgur6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.card>div:nth-child(5)>div {
+    background-color: rgb(99, 56, 117);
+    color: white;
+    width: 100%;
+    height: 60px;
+    font-family: Proxima Nova Bold, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+
+.card>div:nth-child(6) {
+    background-image: url("./images/imgur7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.card>div:nth-child(6)>div {
+    background-color: rgb(99, 56, 117);
+    color: white;
+    width: 100%;
+    height: 60px;
+    font-family: Proxima Nova Bold, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+
+.card>div:nth-child(7) {
+    background-image: url("./images/imgur8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.card>div:nth-child(7)>div {
+    background-color: rgb(99, 56, 117);
+    color: white;
+    width: 100%;
+    height: 60px;
+    font-family: Proxima Nova Bold, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+
+.card>div:nth-child(8) {
+    background-image: url("./images/imgur9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.card>div:nth-child(8)>div {
+    background-color: rgb(99, 56, 117);
+    color: white;
+    width: 100%;
+    height: 60px;
+    font-family: Proxima Nova Bold, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+
+#photos {
+    color: black;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#photo {
+    width: 250px;
+    height: 250px;
+    flex-wrap: wrap;
+}
+
+#photo>img {
+    width: 250px;
+    height: 250px;
+}
+
+.paginate {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.paginate>button {
+    padding: 15px 35px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
